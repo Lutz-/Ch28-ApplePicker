@@ -263,6 +263,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1194709213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1701152478689938282, guid: 9389866bbe4657a499c3f3047408aa20,
+    type: 3}
+  m_PrefabInstance: {fileID: 1701152479848373175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1194709216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194709213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a848444dc73ef64182b81f7feb58b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 589507361231986252, guid: bfabe9b47ab8f1b4fabbf2f87fa91c88,
+    type: 3}
+  speed: 10
+  leftAndRightEdge: 15
+  chanceToChangeDirections: 0.03
+  secondsBetweenAppleDrops: 1
 --- !u!1001 &1701152479848373175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -275,6 +299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 1701152478689938282, guid: 9389866bbe4657a499c3f3047408aa20,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1701152478689938280, guid: 9389866bbe4657a499c3f3047408aa20,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -283,7 +312,7 @@ PrefabInstance:
     - target: {fileID: 1701152478689938280, guid: 9389866bbe4657a499c3f3047408aa20,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1701152478689938280, guid: 9389866bbe4657a499c3f3047408aa20,
         type: 3}
@@ -329,6 +358,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701152478689938281, guid: 9389866bbe4657a499c3f3047408aa20,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701152479980136034, guid: 9389866bbe4657a499c3f3047408aa20,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701152480254281603, guid: 9389866bbe4657a499c3f3047408aa20,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9389866bbe4657a499c3f3047408aa20, type: 3}
