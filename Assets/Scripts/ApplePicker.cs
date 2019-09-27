@@ -36,5 +36,7 @@ public class ApplePicker : MonoBehaviour
         basketList.RemoveAt(basketIndex);
         Destroy(tBasketGo);
 
+        if (basketList.Count == 0)
+            SceneManager.LoadScene("_Scene_0");
     }
 }
